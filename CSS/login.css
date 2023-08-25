@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&family=Lobster&family=Nerko+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Microbe&family=Zen+Dots&display=swap');
+
+.logo{
+
+    margin: 250px 700px;
+    background-color: #CEC6B5;
+    width: 400px;
+    height: 400px;
+    padding: 5px 1px 30px 10px;
+    border-radius: 10px;
+    text-align: center;
+  
+    font-family: cursive
+}
+.inputGroup{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    max-width:  100%;
+    left: 20%;    
+}
+#form1{
+    background: #DEE7DE;
+    position: relative;
+    display: flex;
+    border: white;
+    max-width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+#form2{
+    background: #DEE7DE;
+    position: relative;
+    display: flex;
+    border: white;
+    height: 35px;
+    max-width: 50%;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+span{
+    background: rgb(137, 175, 137);
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#button{
+  position: relative;
+  text-align: center;
+  padding: 10px 20px;
+  color: black;
+  background: rgb(137, 175, 137);
+  border-radius: 5px;
+  margin-top: 20px;
+  border-color: rgb(226, 226, 236);
+  font-family: cursive;
+  font-weight: bold;
+
+}
+
+#button:hover{
+    background: rgb(178, 202, 178);;
+
+}

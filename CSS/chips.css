@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@600&family=Poppins:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;  
+
+}
+.logo{
+    position: relative;
+    flex-flow: row wrap;
+    margin-left: 2%;
+    text-align: top;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    bottom: 15px;
+    
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    background: #CEC6B5;
+    justify-content: top;
+    align-content: top;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    
+}
+.menu{
+    flex:30%;
+    text-align: right;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.menu a:hover{
+    color: rgb(209, 109, 69);
+    
+    
+    border-radius: 20px;
+}
+#botao{
+    background: rgb(209, 109, 69);
+    padding: 10px 25px;
+    color: rgb(231, 239, 233);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover {
+    
+    background: rgb(1, 4, 7);
+}
+
+
+footer{
+    margin-top:750px;
+    background: #CEC6B5;
+    text-align: center;
+    color: rgb(10, 9, 9);
+    border-top: 5px solid rgb(209, 109, 69);
+    height: 180px;
+    
+}
+.logo-rodape{
+    padding:2px;
+    
+}
+.titulo-rodape{
+    flex: 20%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;         
+}
+#equipe{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}

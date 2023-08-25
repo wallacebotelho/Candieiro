@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&family=Lobster&family=Nerko+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Microbe&family=Zen+Dots&display=swap');
+
+
+
+body{
+    background-color:rgb(231, 239, 233);
+    overflow-x: hidden;
+}
+.row{
+    display: flexbox;
+    position: relative;
+    left: 20%;
+    margin-top: 10%;
+    margin-left: 20%; 
+}
+.btn{
+    background-color: rgb(126, 177, 221);
+    border: 1px ;
+    border-style: ridge;
+    padding: 5px 20px 5px 20px;
+    color: aliceblue;
+}
+img{
+    position: relative;
+    width: 70%;
+    right: 130px;
+}
+
+.form_login{
+    position: relative;
+    bottom: 10%;
+    width: 50%;
+}

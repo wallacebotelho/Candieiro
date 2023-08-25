@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@600&family=Poppins:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;  
+
+}
+.logo{
+    position: relative;
+    flex-flow: row wrap;
+    margin-left: 3%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background: #CEC6B5;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    flex:30%;
+    text-align: right;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.menu a:hover{
+    color: rgb(0, 0, 0);
+    border-top: 2px solid rgb(209, 109, 69);
+    
+    border-radius: 20px;
+}
+#botao{
+    background: rgb(209, 109, 69);
+    padding: 10px 25px;
+    color: rgb(231, 239, 233);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover {
+    
+    background: rgb(1, 4, 7);
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.img-headline{
+
+    flex: 40%;
+    text-align: center;   
+}
+
+footer{
+    margin-top: 208px;
+    background: #CEC6B5;
+    text-align: center;
+    color: rgb(10, 9, 9);
+    border-top: 5px solid rgb(209, 109, 69);
+    
+}
+.logo-rodape{
+    padding:2px;
+    
+}
+.titulo-rodape{
+    flex: 20%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;   
+     
+    
+}
+
+#equipe{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+/*  Formulário*/
+.container-{
+display: flexbox;
+position: relative;
+left: 40%;
+top: 150px;
+width: 100px;
+text-align: center;
+}
+
+
+
+form_login{
+    display: flexbox;
+    position: relative;
+    top: 150px;
+    left: 50%;
+}
+
+img{
+    height: 250px;
+    width: 300px;  
+}
+
+.btn{
+    background-color: bisque;
+    border: solid 1px;
+
+}
