@@ -1,10 +1,10 @@
 <?php
 
 // Configurações do banco de dados
-$db_host = 'sql107.infinityfree.com';
-$db_name = 'if0_34433024_candieiro';
-$db_user = 'if0_34433024';
-$db_pass = '5NdTNA2FuW64w8';
+$db_host = '';
+$db_name = '';
+$db_user = '';
+$db_pass = '';
 
 // Arquivo CSV
 $csv_file = '../garantias.csv';
